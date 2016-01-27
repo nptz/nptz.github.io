@@ -34,7 +34,8 @@ a:hover{
 </head>
 <body>
   <div class="content">
-   <p>Random img <a href="#" onclick="document.getElementById('image').href='https://source.unsplash.com/random' + Math.floor(Math.random() * 10000000); return false">new photo</a><p class="leo"></p>
+   <p>Random img <a href="#" onclick="	
+document.getElementById('image').href='https://source.unsplash.com/random?anticache=' + Math.floor(Math.random() * 10000000); return false">new photo</a><p class="leo"></p>
    <img id="image" src="https://source.unsplash.com/random"/>
   <center><p>Made by <a href="https://github.com/nptz">nptz</a></p></center>
   </div>
